@@ -1,0 +1,12 @@
+@media (min-width: 576px) {
+    .card-deck .card {
+      flex: auto;
+      margin: 15px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .card-deck .card {
+      flex: 1 1 150px;
+    }
+  }
