@@ -7,6 +7,7 @@ import { HeaderComponent } from './shared/components/header/header.component';
 import { CardsComponent } from './shared/components/cards/cards.component';
 import { ContenidoComponent } from './shared/components/contenido/contenido.component';
 import { NavComponent } from './shared/components/nav/nav.component';
+import { FooterComponent } from './shared/components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { NavComponent } from './shared/components/nav/nav.component';
     HeaderComponent,
     CardsComponent,
     ContenidoComponent,
-    NavComponent
+    NavComponent,
+    FooterComponent
 
   ],
   imports: [
