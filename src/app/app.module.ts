@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { CardsComponent } from './shared/components/cards/cards.component';
 import { ContenidoComponent } from './shared/components/contenido/contenido.component';
-import { NavComponent } from './nav/nav.component';
+import { NavComponent } from './shared/components/nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +15,7 @@ import { NavComponent } from './nav/nav.component';
     CardsComponent,
     ContenidoComponent,
     NavComponent
+
   ],
   imports: [
     BrowserModule,
